@@ -14,7 +14,7 @@ function calculateMonths(age) {
 function displayQuotes() {
     quotesDiv.innerHTML = "";
     for (let i = 0; i < 5; i++) {
-        quotesDiv.innerHTML += "<p> Keep pushing forward and never give up!</p>";
+        quotesDiv.innerHTML += "<p>🌟 Keep pushing forward and never give up!</p>";
     }
 }
 
@@ -49,9 +49,9 @@ function showUserData(name, age) {
 
     // Adult check
     if (age >= 18) {
-        adultMessage.innerHTML = "You can access adult content.";
+        adultMessage.innerHTML = "✅ You can access adult content.";
     } else {
-        adultMessage.innerHTML = "You are too young for adult content.";
+        adultMessage.innerHTML = "❌ You are too young for adult content.";
     }
 
     displayQuotes();
