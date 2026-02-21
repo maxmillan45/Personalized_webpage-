@@ -13,7 +13,7 @@ This project is an interactive webpage that:
 - CSS
 - JavaScript
 - localStorage
-- Git
+- Git.
 
 ## How to Run
 1. Clone the repository
