@@ -7,7 +7,7 @@ const quotesDiv = document.getElementById("quotes");
 
 // Function to calculate age in months
 function calculateMonths(age) {
-    return Age * 12;
+    return age * 12;
 }
 
 // Function to display motivational quotes
